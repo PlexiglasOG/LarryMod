@@ -1,0 +1,3 @@
+/give Player261 larrymod:larry_spawn_egg
+/playsound larrymod:larry_full
+/kill @e[type= larrymod:larry]

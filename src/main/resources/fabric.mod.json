@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "larrymod",
+  "version": "${version}",
+  "name": "LarryMod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/larrymod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "io.github.plexiglasog.larrymod.client.LarrymodDataGenerator"
+    ],
+    "client": [
+      "io.github.plexiglasog.larrymod.client.LarrymodClient"
+    ],
+    "main": [
+      "io.github.plexiglasog.larrymod.Larrymod"
+    ]
+  },
+  "mixins": [
+    "larrymod.mixins.json",
+    {
+      "config": "larrymod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

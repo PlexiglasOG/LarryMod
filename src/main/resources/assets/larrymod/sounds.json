@@ -1,0 +1,12 @@
+{
+  "larry_full": {
+    "sounds": [
+      "larrymod:larry_full"
+    ]
+  },
+  "larry": {
+    "sounds": [
+      "larrymod:larry"
+    ]
+  }
+}
