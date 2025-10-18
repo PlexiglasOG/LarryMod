@@ -4,6 +4,7 @@
   "package": "io.github.plexiglasog.larrymod.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "CarvedPumpkinBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1
